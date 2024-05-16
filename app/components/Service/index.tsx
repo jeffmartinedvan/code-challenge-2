@@ -32,7 +32,7 @@ const ServiceItemList = [
   },
 ]
 
-const Services = () => {
+const Service = () => {
   return (
     <section className='my-9'>
       <p className='text-sm mb-5 text-[#3535DE] text-center tracking-widest'>
@@ -59,4 +59,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Service
