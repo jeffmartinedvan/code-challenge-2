@@ -40,7 +40,7 @@ const ContactForm = () => {
         </h4>
       </div>
       <div className='pt-10 grid gap-3 px-6 md:px-14 lg:px-20'>
-        <h2 className='text-2xl'>Let's Talk</h2>
+        <h2 className='text-2xl'>Let&apos;s Talk</h2>
         <form action='submit' className='flex flex-col gap-4 text-black'>
           <input
             type='text'
