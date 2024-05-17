@@ -3,6 +3,13 @@ import Link from "next/link"
 import arrowImage from "@/public/arrow.png"
 import bgImage from "@/public/bg-base-img.jpg"
 import bgOverlay from "@/public/bg-img-overlay.png"
+import { Montserrat } from "next/font/google"
+import cn from "classnames"
+
+const montserratFont = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+})
 
 const Hero = () => {
   return (
@@ -31,15 +38,20 @@ const Hero = () => {
           </h1>
         </div>
         <div>
-          <p className='text-sm tracking-widest pb-10 font-Montserrat md:text-justify md:text-xl'>
+          <p
+            className={cn(
+              "text-sm tracking-widest pb-10 md:text-justify md:text-xl",
+              montserratFont.className
+            )}
+          >
             Sollicitudin eros nulla mus donec a quisque convallis integer
             condimentum volutpat felis sed aliquet netus dolor dictumst
             pellentesque.
           </p>
         </div>
         <div className='flex flex-col gap-10 items-center md:flex-row'>
-          <div className='bg-[#3535DE] px-[22px] py-[13px] text-white rounded-lg'>
-            <Link href='#Contacts' className='whitespace-nowrap'>
+          <div className='w-full bg-[#3535DE] px-[22px] py-[13px] text-white rounded-lg md:w-fit'>
+            <Link href='#ContactForm' className='whitespace-nowrap'>
               Get a Free Quote
             </Link>
           </div>

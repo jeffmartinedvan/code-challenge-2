@@ -1,5 +1,11 @@
 import type { Metadata } from "next"
 import "./globals.css"
+import { Heebo } from "next/font/google"
+
+const heeboFont = Heebo({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+})
 
 export const metadata: Metadata = {
   title: "Codelify",
@@ -13,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className='font-Heebo'>{children}</body>
+      <body className={heeboFont.className}>{children}</body>
     </html>
   )
 }

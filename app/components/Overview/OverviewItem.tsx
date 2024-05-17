@@ -1,5 +1,12 @@
 import Card from "@/components/Card"
 import Image, { StaticImageData } from "next/image"
+import { Montserrat } from "next/font/google"
+import cn from "classnames"
+
+const montserratFont = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+})
 
 interface OverviewItemProps {
   logo: StaticImageData
@@ -16,7 +23,14 @@ const OverviewItem: React.FC<OverviewItemProps> = ({
     <Card>
       <Image src={logo} alt='' height={24} width={24} />
       <p className='text-xl'>{title}</p>
-      <p className='text-sm font-Montserrat text-[#76767F]'>{description}</p>
+      <p
+        className={cn(
+          "text-sm text-[#76767F] font-thin",
+          montserratFont.className
+        )}
+      >
+        {description}
+      </p>
     </Card>
   )
 }

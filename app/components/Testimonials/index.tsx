@@ -1,43 +1,44 @@
-import googleLogo from "@/public/google-logo.png"
-import facebookLogo from "@/public/facebook-logo.png"
-import locationLogo from "@/public/location-logo.png"
-import starLogo from "@/public/star-logo.png"
+import star from "@/public/star.png"
+import matthew from "@/public/matthew-johnson.png"
+import luis from "@/public/luis-carloz.png"
+import alice from "@/public/alice-miles.png"
 import TestimonialItem from "./TestimonialItem"
-import Card from "@/components/Card"
 
 const TestimonialItemList = [
   {
-    logo: googleLogo,
-    rating: "4.8",
-    review: "200 + Reviews",
+    rating: star,
+    testimony:
+      '"Volutpat commodo at dictum amet tincidunt facilisis id lorem eu vitae cursus auctor laoreet fermentum adipiscing."',
+    profileImg: matthew,
+    name: "MATTHEW JOHNSON",
   },
   {
-    logo: facebookLogo,
-    rating: "4.6",
-    review: "400 + Reviews",
+    rating: star,
+    testimony:
+      '"Faucibus eget ullamcorper nascetur suspendisse purus nisi, sapien at id ipsum tincidunt quis sed fermentum risus, nibh tristique elit commodo."',
+    profileImg: luis,
+    name: "LUIS CARLOZ",
   },
   {
-    logo: locationLogo,
-    rating: "4.8",
-    review: "100 + Reviews",
-  },
-  {
-    logo: starLogo,
-    rating: "4.7",
-    review: "200 + Reviews",
+    rating: star,
+    testimony:
+      '"Malesuada nibh eu sed elit purus, sit sem molestie enim, egestas aliquet etiam donec tristique nec."',
+    profileImg: alice,
+    name: "ALICE MILES",
   },
 ]
 
 const Testimonials = () => {
   return (
-    <section>
-      <div className='grid grid-cols-2 py-6 border-2 border-blue-600 rounded-2xl md:grid-cols-4 md:justify-items-center lg:w-[96vw] lg:-translate-x-[60px]'>
+    <section className='w-screen bg-[#3535DE] -translate-x-6 md:-translate-x-14 lg:-translate-x-20'>
+      <div className='flex flex-col py-12 gap-12 px-6 md:px-14 lg:px-20'>
         {TestimonialItemList.map((item, index) => (
           <TestimonialItem
             key={index}
-            logo={item.logo}
             rating={item.rating}
-            review={item.review}
+            testimony={item.testimony}
+            profileImg={item.profileImg}
+            name={item.name}
           />
         ))}
       </div>

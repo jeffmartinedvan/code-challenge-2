@@ -45,7 +45,7 @@ const Service = () => {
         Id senectus facilisi enim accumsan ac aliquam suspendisse dapibus morbi
         ut sed pellentesque elementum velit dictum
       </p>
-      <div className='grid gap-6 md:grid-cols-2'>
+      <div className='grid gap-2 md:grid-cols-2'>
         {ServiceItemList.map((item, index) => (
           <ServiceItem
             key={index}
