@@ -21,10 +21,11 @@ const Culture = () => {
         At Codelify, our culture is built on collaboration, creativity, and
         continuous learning. We foster an environment where ideas can flourish,
         encouraging our team to think outside the box and stay ahead of industry
-        trends. We believe in the power of teamwork and value each individual's
-        contribution to our collective success. Our commitment to professional
-        development ensures that our team is always equipped with the latest
-        skills and knowledge to deliver cutting-edge solutions for our clients.
+        trends. We believe in the power of teamwork and value each
+        individual&apos;s contribution to our collective success. Our commitment
+        to professional development ensures that our team is always equipped
+        with the latest skills and knowledge to deliver cutting-edge solutions
+        for our clients.
       </div>
     </section>
   )
