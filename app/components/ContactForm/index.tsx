@@ -11,7 +11,7 @@ const ContactForm = () => {
   return (
     <section
       id='ContactForm'
-      className='grid items-center w-screen py-12 text-white bg-[#26262C] -translate-x-6 md:-translate-x-14 lg:-translate-x-20 md:grid-cols-2 md:py-16'
+      className='grid items-center w-full py-12 text-white bg-[#26262C] md:grid-cols-2 md:py-16'
     >
       <div className='flex flex-col gap-4 px-6 md:pl-14 md:gap-6 lg:pl-20 lg:gap-8'>
         <h2 className='text-2xl md:text-3xl lg:text-5xl'>

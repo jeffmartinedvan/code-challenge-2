@@ -1,5 +1,12 @@
 import Card from "@/components/Card"
 import Image, { StaticImageData } from "next/image"
+import { Montserrat } from "next/font/google"
+import cn from "classnames"
+
+const montserratFont = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+})
 
 interface ServiceItemProps {
   logo: StaticImageData
@@ -15,10 +22,12 @@ const ServiceItem: React.FC<ServiceItemProps> = ({
   return (
     <Card>
       <div>
-        <Image src={logo} alt='' height={24} width={24} />
+        <Image src={logo} alt='logo' height={24} width={24} />
       </div>
       <p className='text-xl'>{title}</p>
-      <p className='text-sm font-Montserrat text-[#76767F]'>{description}</p>
+      <p className={cn("text-sm text-[#76767F]", montserratFont.className)}>
+        {description}
+      </p>
     </Card>
   )
 }

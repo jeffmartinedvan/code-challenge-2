@@ -4,6 +4,13 @@ import advertisingLogo from "@/public/advertising-logo.png"
 import onlineMarketingLogo from "@/public/online-marketing-logo.png"
 import seoLogo from "@/public/seo-logo.png"
 import ServiceItem from "./ServicesItem"
+import { Montserrat } from "next/font/google"
+import cn from "classnames"
+
+const montserratFont = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+})
 
 const ServiceItemList = [
   {
@@ -34,14 +41,19 @@ const ServiceItemList = [
 
 const Service = () => {
   return (
-    <section className='my-9'>
+    <section className='my-9 px-6 md:px-14 lg:px-20'>
       <p className='text-sm mb-5 text-[#3535DE] text-center tracking-widest'>
         OUR SERVICES
       </p>
       <h2 className='text-3xl text-center text-[#26262C] pb-2 md:text-5xl lg:whitespace-nowrap leading-tight'>
         Take Your Business to the next Level
       </h2>
-      <p className='text-sm font-extralight text-center text-[#76767f] font-Montserrat tracking-widest mb-8 md:mb-16 md:text-base'>
+      <p
+        className={cn(
+          "text-sm font-extralight text-center text-[#76767f] tracking-widest mb-8 md:mb-16 md:text-base",
+          montserratFont.className
+        )}
+      >
         Id senectus facilisi enim accumsan ac aliquam suspendisse dapibus morbi
         ut sed pellentesque elementum velit dictum
       </p>

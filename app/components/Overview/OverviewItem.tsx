@@ -21,7 +21,7 @@ const OverviewItem: React.FC<OverviewItemProps> = ({
 }) => {
   return (
     <Card>
-      <Image src={logo} alt='' height={24} width={24} />
+      <Image src={logo} alt='logo' height={24} width={24} />
       <p className='text-xl'>{title}</p>
       <p
         className={cn(

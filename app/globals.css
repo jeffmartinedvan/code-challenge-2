@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply px-6 md:px-14 lg:px-20;
-  }
-
   * {
     @apply scroll-smooth;
   }

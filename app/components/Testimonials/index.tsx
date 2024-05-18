@@ -30,8 +30,8 @@ const TestimonialItemList = [
 
 const Testimonials = () => {
   return (
-    <section className='w-screen bg-[#3535DE] -translate-x-6 md:-translate-x-14 lg:-translate-x-20'>
-      <div className='flex flex-col py-12 gap-12 px-6 md:px-14 lg:px-20'>
+    <section className='w-full bg-[#3535DE] px-6 md:px-14 lg:px-20'>
+      <div className='flex flex-col py-12 gap-12'>
         {TestimonialItemList.map((item, index) => (
           <TestimonialItem
             key={index}

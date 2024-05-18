@@ -1,5 +1,13 @@
+import Footer from "@/components/Footer"
+import NavBar from "@/components/NavBar"
+
 const Teams = () => {
-  return <div>Teams</div>
+  return (
+    <section>
+      <NavBar />
+      <Footer />
+    </section>
+  )
 }
 
 export default Teams

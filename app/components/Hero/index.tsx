@@ -28,25 +28,26 @@ const Hero = () => {
         <Image src={bgOverlay} alt='Overlay Image' className='-z-20' />
       </div>
 
-      <div className='flex flex-col text-center md:max-w-[600px] md:text-left'>
+      <div className='flex flex-col text-center px-6 md:px-14 md:max-w-[600px] md:text-left lg:px-20'>
         <div className='my-8'>
           <h6 className='tracking-widest text-sm'>WELCOME TO CODELIFY</h6>
         </div>
         <div>
-          <h1 className='text-3xl mb-6 md:text-6xl'>
+          <h1 className='text-3xl mb-6 md:text-5xl'>
             Leading Internet Marketing Agency Based on Batam.
           </h1>
         </div>
         <div>
           <p
             className={cn(
-              "text-sm tracking-widest pb-10 md:text-justify md:text-xl",
+              "text-sm tracking-widest pb-10 md:text-justify md:text-lg",
               montserratFont.className
             )}
           >
-            Sollicitudin eros nulla mus donec a quisque convallis integer
-            condimentum volutpat felis sed aliquet netus dolor dictumst
-            pellentesque.
+            Welcome to Codelify, a premier digital internet marketing agency
+            dedicated to helping businesses thrive in the digital landscape.Our
+            mission is to empower brands through innovative and data-driven
+            marketing strategies.
           </p>
         </div>
         <div className='flex flex-col gap-10 items-center md:flex-row'>
