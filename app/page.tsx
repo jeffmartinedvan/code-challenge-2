@@ -9,6 +9,7 @@ import Review from "./components/Review"
 import ContactForm from "./components/ContactForm"
 import Tagline from "./components/Tagline"
 import Culture from "./components/Culture"
+import History from "./components/History"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Tagline />
       <Overview />
+      <History />
       <Culture />
       <Filler />
       <Service />

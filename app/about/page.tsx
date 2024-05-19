@@ -1,20 +1,26 @@
 import Footer from "@/components/Footer"
 import NavBar from "@/components/NavBar"
 import Overlay from "@/components/Overlay"
-import Service from "../components/Service"
+import History from "../components/History"
+import Culture from "../components/Culture"
+import Teams from "../components/Team"
+import Overview from "../components/Overview"
 
-const Services = () => {
+const About = () => {
   return (
     <section>
       <NavBar />
       <Overlay
-        title='Services'
+        title='About'
         description='Sollicitudin eros nulla mus donec quisque convallis integer condimentum volutpat.'
       />
-      <Service />
+      <Overview />
+      <History />
+      <Teams />
+      <Culture />
       <Footer />
     </section>
   )
 }
 
-export default Services
+export default About

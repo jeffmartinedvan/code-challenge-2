@@ -28,19 +28,19 @@ const Hero = () => {
         <Image src={bgOverlay} alt='Overlay Image' className='-z-20' />
       </div>
 
-      <div className='flex flex-col text-center px-6 md:px-14 md:max-w-[600px] md:text-left lg:px-20'>
+      <div className='flex flex-col text-center px-6 md:px-14 md:max-w-[750px] md:text-left lg:px-20'>
         <div className='my-8'>
           <h6 className='tracking-widest text-sm'>WELCOME TO CODELIFY</h6>
         </div>
         <div>
-          <h1 className='text-3xl mb-6 md:text-5xl'>
+          <h1 className='text-3xl mb-6 md:text-5xl lg:text-7xl'>
             Leading Internet Marketing Agency Based on Batam.
           </h1>
         </div>
         <div>
           <p
             className={cn(
-              "text-sm tracking-widest pb-10 md:text-justify md:text-lg",
+              "text-sm tracking-widest pb-10 md:text-lg",
               montserratFont.className
             )}
           >

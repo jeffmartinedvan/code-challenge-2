@@ -1,5 +1,5 @@
 import Image from "next/image"
-import codelify from "@/public/codelify-black.svg"
+import codelify from "@/public/codelify2.0.png"
 import mLogo from "@/public/m-logo.png"
 import beLogo from "@/public/be-logo.png"
 import ballLogo from "@/public/ball-logo.png"
@@ -20,7 +20,7 @@ const Footer = () => {
             src={codelify}
             alt=''
             height={32}
-            width={43}
+            width={120}
             className='mix-blend-multiply'
           />
           <p
