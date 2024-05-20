@@ -17,9 +17,9 @@ const Team = () => {
     <div className='grid gap-10 py-10 px-6 md:px-14 lg:px-20'>
       <p className='text-[#3535DE] text-center text-3xl'>Meet the Team</p>
       <div className='flex flex-col lg:flex-row justify-center gap-2 text-center md:gap-4 lg:gap-6'>
-        {teamMembers.map((member, index) => (
-          <Card>
-            <div key={index} className='flex flex-col gap-4 items-center'>
+        {teamMembers.map((member) => (
+          <Card key={member.name}>
+            <div className='flex flex-col gap-4 items-center'>
               <Image
                 src={member.picture}
                 alt={member.name}

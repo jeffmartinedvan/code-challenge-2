@@ -9,23 +9,18 @@ interface TeamMember {
 
 const teamItems = [
   {
-    // name: "George Best",
     position: "Executive Chairman",
   },
   {
-    // name: "Reynold Annis",
     position: "Chief Executive Officer",
   },
   {
-    // name: "Kalie Martha",
     position: "Chief Technology Officer",
   },
   {
-    // name: "Rosamond Lyndsay",
     position: "Chief Financial Officer",
   },
   {
-    // name: "Sanford Rebecca",
     position: "Chief Marketing Officer",
   },
 ]
