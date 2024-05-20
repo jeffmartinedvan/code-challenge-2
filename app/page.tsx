@@ -10,6 +10,7 @@ import ContactForm from "./components/ContactForm"
 import Tagline from "./components/Tagline"
 import Culture from "./components/Culture"
 import History from "./components/History"
+import Team from "./components/Team"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Overview />
       <History />
       <Culture />
+      <Team />
       <Filler />
       <Service />
       <Review />

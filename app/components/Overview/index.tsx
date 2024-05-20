@@ -2,7 +2,6 @@ import consultingLogo from "@/public/consulting-logo.png"
 import marketingLogo from "@/public/marketing-logo.png"
 import designLogo from "@/public/design-logo.png"
 import OverviewItem from "./OverviewItem"
-import Card from "@/components/Card"
 import { Montserrat } from "next/font/google"
 import cn from "classnames"
 

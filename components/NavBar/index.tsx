@@ -17,16 +17,22 @@ const NavBar = () => {
       <div className='absolute top-0 left-0 right-0'>
         <div className='flex items-center justify-between px-6 md:px-14 lg:px-20 w-full  text-white z-[1]'>
           <Link href='/' className='my-6 md:my-8 lg:my-10'>
-            <Image src={codelify} alt='codelify-logo' height={26} width={128} />
+            <Image
+              src={codelify}
+              alt='codelify-logo'
+              height={26}
+              width={128}
+              className='hover:scale-105'
+            />
           </Link>
-          <div className='hidden text-sm gap-10 lg:flex'>
-            <Link href='/services' className='hover:font-bold'>
+          <div className='hidden gap-10 lg:flex'>
+            <Link href='/services' className='hover:underline'>
               Services
             </Link>
-            <Link href='/about' className='hover:font-bold'>
+            <Link href='/about' className='hover:underline'>
               About Us
             </Link>
-            <Link href='/teams' className='hover:font-bold'>
+            <Link href='/teams' className='hover:underline'>
               Teams
             </Link>
           </div>
@@ -52,14 +58,14 @@ const NavBar = () => {
         </div>
         {hidden ? (
           <div>
-            <div className='text-sm py-6 gap-6 z-[2] flex flex-col bg-white px-6 md:px-14 lg:px-20'>
-              <Link href='/services' className='hover:font-bold'>
+            <div className='py-6 gap-6 z-[2] flex flex-col bg-white px-6 md:px-14 lg:px-20'>
+              <Link href='/services' className='hover:underline'>
                 Services
               </Link>
-              <Link href='/about' className='hover:font-bold'>
+              <Link href='/about' className='hover:underline'>
                 About Us
               </Link>
-              <Link href='/teams' className='hover:font-bold'>
+              <Link href='/teams' className='hover:underline'>
                 Teams
               </Link>
             </div>

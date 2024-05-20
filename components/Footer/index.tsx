@@ -5,6 +5,7 @@ import beLogo from "@/public/be-logo.png"
 import ballLogo from "@/public/ball-logo.png"
 import { Montserrat } from "next/font/google"
 import cn from "classnames"
+import Link from "next/link"
 
 const montserratFont = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -60,9 +61,15 @@ const Footer = () => {
               montserratFont.className
             )}
           >
-            <h3>About Us</h3>
-            <h3>Our Team</h3>
-            <h3>Contact Us</h3>
+            <Link href='/about'>
+              <h3>About Us</h3>
+            </Link>
+            <Link href='/teams'>
+              <h3>Our Team</h3>
+            </Link>
+            <Link href='#ContactForm'>
+              <h3>Contact Us</h3>
+            </Link>
           </div>
         </div>
         <div className='text-center pb- md:text-left'>
