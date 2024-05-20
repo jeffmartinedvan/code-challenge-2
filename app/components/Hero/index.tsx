@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
           <div className='flex gap-4 items-center'>
             <div>
-              <Link href='/services'>Learn More</Link>
+              <Link href='/services'>Learn more about our services</Link>
             </div>
             <div>
               <Image src={arrowImage} alt='arrow logo' />
