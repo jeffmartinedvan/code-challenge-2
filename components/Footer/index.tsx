@@ -88,14 +88,14 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <h6
+      <h4
         className={cn(
           "py-10 text-sm text-[#333333] text-center",
           montserratFont.className
         )}
       >
         © 2024 Digital Marketing Agency | Powered by Digital Marketing Agency
-      </h6>
+      </h4>
     </section>
   )
 }
