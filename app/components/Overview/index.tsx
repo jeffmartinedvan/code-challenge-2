@@ -41,7 +41,7 @@ const Overview = () => {
         </h2>
         <p
           className={cn(
-            "text-sm text-[#76767f] text-justify mb-5 md:text-base",
+            "text-sm text-[#333333] text-justify mb-5 md:text-base",
             montserratFont.className
           )}
         >
