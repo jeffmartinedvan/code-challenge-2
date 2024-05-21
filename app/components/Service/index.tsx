@@ -45,12 +45,12 @@ const Service = () => {
       <p className='text-sm mb-5 text-[#3535DE] text-center tracking-widest'>
         OUR SERVICES
       </p>
-      <h2 className='text-3xl text-center text-[#26262C] pb-2 md:text-5xl lg:whitespace-nowrap leading-tight'>
+      <h2 className='text-3xl text-center text-black pb-2 md:text-5xl lg:whitespace-nowrap leading-tight'>
         Take Your Business to the next Level
       </h2>
       <p
         className={cn(
-          "text-sm font-extralight text-center text-[#76767f] tracking-widest mb-8 md:mb-16 md:text-base",
+          "text-sm font-extralight text-center text-[#333333] tracking-widest mb-8 md:mb-16 md:text-base",
           montserratFont.className
         )}
       >

@@ -25,7 +25,7 @@ const OverviewItem: React.FC<OverviewItemProps> = ({
       <p className='text-xl'>{title}</p>
       <p
         className={cn(
-          "text-sm text-[#76767F] font-thin",
+          "text-sm text-[#333333] font-thin",
           montserratFont.className
         )}
       >

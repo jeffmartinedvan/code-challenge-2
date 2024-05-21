@@ -26,7 +26,7 @@ const Footer = () => {
           />
           <p
             className={cn(
-              "text-center text-sm text-[#76767F] md:text-left md:text-[15px] lg:text-base",
+              "text-center text-sm text-[#333333] md:text-left md:text-[15px] lg:text-base",
               montserratFont.className
             )}
           >
@@ -44,7 +44,7 @@ const Footer = () => {
           <h2 className='text-2xl text-[#26262C] pb-6'>Services</h2>
           <div
             className={cn(
-              "grid gap-1 pb-4 text-sm text-[#76767F] md:text-[15px] lg:text-base",
+              "grid gap-1 pb-4 text-sm text-[#333333] md:text-[15px] lg:text-base",
               montserratFont.className
             )}
           >
@@ -55,10 +55,10 @@ const Footer = () => {
           </div>
         </div>
         <div className='text-center pb- md:text-left'>
-          <h2 className='text-2xl text-[#26262C] pb-6'>Agency</h2>
+          <h2 className='text-2xl text-black pb-6'>Agency</h2>
           <div
             className={cn(
-              "grid gap-1 pb-4 text-sm text-[#76767F] md:text-[15px] lg:text-base",
+              "grid gap-1 pb-4 text-sm text-[#333333] md:text-[15px] lg:text-base",
               montserratFont.className
             )}
           >
@@ -74,10 +74,10 @@ const Footer = () => {
           </div>
         </div>
         <div className='text-center pb- md:text-left'>
-          <h2 className='text-2xl text-[#26262C] pb-6'>Contact Info</h2>
+          <h2 className='text-2xl text-black pb-6'>Contact Info</h2>
           <div
             className={cn(
-              "grid gap-1 pb-4 text-sm text-[#76767F] md:text-[15px] lg:text-base",
+              "grid gap-1 pb-4 text-sm text-[#333333] md:text-[15px] lg:text-base",
               montserratFont.className
             )}
           >
@@ -90,7 +90,7 @@ const Footer = () => {
       <hr />
       <h6
         className={cn(
-          "py-10 text-sm text-[#76767F] text-center",
+          "py-10 text-sm text-[#333333] text-center",
           montserratFont.className
         )}
       >

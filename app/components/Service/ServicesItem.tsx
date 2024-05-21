@@ -25,7 +25,7 @@ const ServiceItem: React.FC<ServiceItemProps> = ({
         <Image src={logo} alt='logo' height={24} width={24} />
       </div>
       <p className='text-xl'>{title}</p>
-      <p className={cn("text-sm text-[#76767F]", montserratFont.className)}>
+      <p className={cn("text-sm text-[#333333]", montserratFont.className)}>
         {description}
       </p>
     </Card>

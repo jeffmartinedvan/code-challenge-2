@@ -98,10 +98,10 @@ const History = () => {
               <p className='text-3xl text-[#3535DE]'>{milestone.year}</p>
               {milestone.events.map((events, index) => (
                 <div key={index}>
-                  <p className='text-xl text-[#26262C]'>{events.name}</p>
+                  <p className='text-xl text-black'>{events.name}</p>
                   <p
                     className={cn(
-                      "text-sm text-[#76767F]",
+                      "text-sm text-[#333333]",
                       montserratFont.className
                     )}
                   >

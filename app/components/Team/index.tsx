@@ -30,7 +30,7 @@ const Team = () => {
               <p className='text-xl'>{member.name}</p>
               <p
                 className={cn(
-                  "text-sm text-[#76767F]",
+                  "text-sm text-[#333333]",
                   montserratFont.className
                 )}
               >

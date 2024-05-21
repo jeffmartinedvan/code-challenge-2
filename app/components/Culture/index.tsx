@@ -14,7 +14,7 @@ const Culture = () => {
       </div>
       <div
         className={cn(
-          "bg-[#F4F4F5] text-[#76767F] text-sm md:text-base lg:text-xl p-4 mt-6 mx-6 md:mx-14 lg:mx-20 rounded-md",
+          "bg-[#F5F5F5] text-[#333333] text-sm md:text-base lg:text-xl p-4 mt-6 mx-6 md:mx-14 lg:mx-20 rounded-md",
           montserratFont.className
         )}
       >

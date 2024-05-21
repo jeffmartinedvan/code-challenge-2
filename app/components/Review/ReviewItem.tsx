@@ -25,7 +25,7 @@ const ReviewItem: React.FC<ReviewItemProps> = ({ logo, rating, review }) => {
         </p>
         <p
           className={cn(
-            "text-sm text-[#76767F] font-semibold",
+            "text-sm text-[#333333] font-semibold",
             montserratFont.className
           )}
         >
