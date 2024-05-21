@@ -9,7 +9,7 @@ const Services = () => {
       <NavBar />
       <Overlay
         title='Services'
-        description='Sollicitudin eros nulla mus donec quisque convallis integer condimentum volutpat.'
+        description="Discover Codelify's comprehensive suite of services designed to enhance your digital presence and drive business growth."
       />
       <Service />
       <Footer />

@@ -9,7 +9,7 @@ const Teams = () => {
       <NavBar />
       <Overlay
         title='Our Team'
-        description='Sollicitudin eros nulla mus donec quisque convallis integer condimentum volutpat.'
+        description='Meet our dedicated team of experts, passionate about delivering innovative digital marketing solutions and exceptional results for your business.'
       />
       <Team />
       <Footer />

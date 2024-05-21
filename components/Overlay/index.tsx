@@ -21,7 +21,7 @@ const Overlay: React.FC<OverlayProps> = ({ title, description }) => {
       <div className='absolute bottom-0 right-0 w-full -z-[1]'>
         <Image src={bgOverlay} alt='Overlay Image' className='-z-20' />
       </div>
-      <div className='flex flex-col pt-8 text-white gap-6 px-6 md:px-14 md:pt-12 md:max-w-[600px] lg:px-20'>
+      <div className='flex flex-col text-white gap-6 px-6 md:px-14 md:pt-6 md:max-w-[600px] lg:px-20'>
         <p className='text-3xl md:text-6xl'>{title}</p>
         <h2 className={cn("text-sm md:text-base", montserratFont.className)}>
           {description}

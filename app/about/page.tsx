@@ -12,7 +12,7 @@ const About = () => {
       <NavBar />
       <Overlay
         title='About'
-        description='Sollicitudin eros nulla mus donec quisque convallis integer condimentum volutpat.'
+        description='Learn more about Codelify, where innovation, expertise, and client-centric strategies come together to transform your digital marketing experience.'
       />
       <Overview />
       <History />
