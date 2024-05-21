@@ -16,8 +16,8 @@ const About = () => {
       />
       <Overview />
       <History />
-      <Teams />
       <Culture />
+      <Teams />
       <Footer />
     </section>
   )

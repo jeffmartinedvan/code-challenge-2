@@ -30,8 +30,9 @@ const Footer = () => {
               montserratFont.className
             )}
           >
-            Volutpat commodo at dictum amet tincidunt facilisis id lorem eu
-            vitae cursus auctor laoreet fermentum.
+            At Codelify, we empower businesses with innovative digital marketing
+            solutions designed to drive success. Connect with us and transform
+            your digital presence today.
           </p>
           <div className='flex gap-6 pb-10'>
             <Image src={mLogo} alt='logo1' />

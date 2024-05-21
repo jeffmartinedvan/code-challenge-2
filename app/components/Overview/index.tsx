@@ -33,7 +33,7 @@ const CardItemList = [
 
 const Overview = () => {
   return (
-    <section className='grid gap-10 py-12 px-6 md:px-14 lg:grid-cols-4 lg:px-20'>
+    <section className='grid gap-4 pt-12 px-6 md:px-14 lg:grid-cols-4 lg:px-20'>
       <p className='pb-4 text-[#3535DE] lg:col-span-1 md:pt-2'>WHAT WE DO</p>
       <div className='lg:col-span-3'>
         <h2 className='text-3xl text-[#26262C] max-w-[540px] pb-6 md:text-5xl lg:text-6xl'>

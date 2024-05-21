@@ -8,21 +8,21 @@ const TestimonialItemList = [
   {
     rating: star,
     testimony:
-      '"Volutpat commodo at dictum amet tincidunt facilisis id lorem eu vitae cursus auctor laoreet fermentum adipiscing."',
+      '"Working with Codelify has been a game-changer for our business. Their strategic approach and creative solutions helped us significantly boost our online presence. The team\'s dedication and expertise are evident in every project they undertake. Highly recommended!"',
     profileImg: matthew,
     name: "MATTHEW JOHNSON",
   },
   {
     rating: star,
     testimony:
-      '"Faucibus eget ullamcorper nascetur suspendisse purus nisi, sapien at id ipsum tincidunt quis sed fermentum risus, nibh tristique elit commodo."',
+      '"Codelify\'s marketing services exceeded our expectations. The comprehensive campaigns they designed drove impressive engagement and growth for our brand. Their attention to detail and proactive communication made the entire process seamless and enjoyable."',
     profileImg: luis,
     name: "LUIS CARLOZ",
   },
   {
     rating: star,
     testimony:
-      '"Malesuada nibh eu sed elit purus, sit sem molestie enim, egestas aliquet etiam donec tristique nec."',
+      "\"We couldn't be happier with the results from Codelify's SEO optimization. Our website traffic has increased dramatically, and we've seen a noticeable improvement in our search engine rankings. Their team's professionalism and knowledge are top-notch.\"",
     profileImg: alice,
     name: "ALICE MILES",
   },

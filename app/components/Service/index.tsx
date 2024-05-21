@@ -17,25 +17,25 @@ const ServiceItemList = [
     logo: digitalStrategyLogo,
     title: "Digital Strategy",
     description:
-      "Ultrices dictum integer quam morbi adipiscing suspendisse neque vel egestas commodo sit felis consectetur integer vitae, at mattis turpis id",
+      "Crafting customized plans to achieve your business goals in the digital landscape. We analyze trends, set objectives, and map out a clear path to success.",
   },
   {
     logo: advertisingLogo,
     title: "Advertising",
     description:
-      "Quis purus enim et quam eget sed tellus ut tellus sit lectus mauris suscipit lobortis lectus netus eros, habitasse maecenas diam pellentesque integer non",
+      "Creating impactful ad campaigns that reach and engage your target audience. Our strategies maximize reach, boost brand awareness, and drive sales.",
   },
   {
     logo: onlineMarketingLogo,
     title: "Online Marketing",
     description:
-      "Tellus, tristique euismod at fames lorem ut adipiscing amet gravida fermentum tellus ornare eget sed sit bibendum tincidunt diam, dignissim purus aenean",
+      "Utilizing diverse online channels to promote your brand and drive conversions. From email marketing to social media, we ensure your message resonates.",
   },
   {
     logo: seoLogo,
     title: "Search Engine Optimization",
     description:
-      "Id vel lectus amet id amet blandit diam arcu senectus ac commodo, sed est sagittis sed aliquam volutpat blandit quam vitae, rutrum euismod sit",
+      "Enhancing your website’s visibility and ranking to attract more organic traffic. Our experts use the latest techniques to improve search engine performance.",
   },
 ]
 
@@ -54,8 +54,9 @@ const Service = () => {
           montserratFont.className
         )}
       >
-        Id senectus facilisi enim accumsan ac aliquam suspendisse dapibus morbi
-        ut sed pellentesque elementum velit dictum
+        Our comprehensive services include SEO Optimization, online marketing,
+        digital strategy and cutting-edge advertising to drive your digital
+        success.
       </p>
       <div className='grid gap-2 md:grid-cols-2'>
         {ServiceItemList.map((item, index) => (

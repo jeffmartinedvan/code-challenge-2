@@ -31,9 +31,12 @@ const ContactForm = () => {
             montserratFont.className
           )}
         >
-          Amet ut elementum, ipsum lobortis amet, ut duis facilisis purus lorem
-          ac pharetre, nunc mi egestas diam id nisl consequat aliquam et nunc
-          justo.
+          Unlock the full potential of your business with Codelify's expert
+          digital marketing solutions. Our team is dedicated to helping you
+          achieve exceptional results through tailored strategies and innovative
+          approaches. Whether you need strategic guidance, impactful
+          advertising, comprehensive online marketing, or cutting-edge SEO
+          optimization, we have the expertise to elevate your brand.
         </h3>
         <h4
           className={cn(
@@ -41,10 +44,9 @@ const ContactForm = () => {
             montserratFont.className
           )}
         >
-          Risus tincidunt in laoreet risus dignissim montes, velit egestas eu
-          nece et in tincidunt amet, etiam at turpis adipiscing volutpat amet,
-          adispiscing purus elementum risus, vitae euismod leo amet eget quam
-          enim blandit diam quis diam proin enim suspendisse massa.
+          Don't miss out on the opportunity to grow your online presence and
+          drive meaningful engagement. Fill out the form below to get in touch
+          with us and start your journey toward digital success today!
         </h4>
       </div>
       <div className='pt-10 grid gap-3 px-6 md:px-14 lg:px-20'>
