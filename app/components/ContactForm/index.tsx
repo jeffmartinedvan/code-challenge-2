@@ -31,7 +31,7 @@ const ContactForm = () => {
             montserratFont.className
           )}
         >
-          Unlock the full potential of your business with Codelify's expert
+          Unlock the full potential of your business with Codelify&apos;s expert
           digital marketing solutions. Our team is dedicated to helping you
           achieve exceptional results through tailored strategies and innovative
           approaches. Whether you need strategic guidance, impactful
@@ -44,9 +44,9 @@ const ContactForm = () => {
             montserratFont.className
           )}
         >
-          Don't miss out on the opportunity to grow your online presence and
-          drive meaningful engagement. Fill out the form below to get in touch
-          with us and start your journey toward digital success today!
+          Don&apos;t miss out on the opportunity to grow your online presence
+          and drive meaningful engagement. Fill out the form below to get in
+          touch with us and start your journey toward digital success today!
         </h4>
       </div>
       <div className='pt-10 grid gap-3 px-6 md:px-14 lg:px-20'>
